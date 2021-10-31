@@ -264,6 +264,13 @@ section.home {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+.services .service .icon img:hover{
+	 transition: transform .2s;
+  	 width: 50px;
+ 	 height: 100px;
+	 object-fit: cover;
+}
+
 .services .service h2 {
     font-size: 24px;
     font-weight: 500;
